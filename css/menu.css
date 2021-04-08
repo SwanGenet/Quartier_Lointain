@@ -1,0 +1,346 @@
+body
+{
+  background-color: #0c0c0c;
+  margin: 0;
+  color:white;
+}
+
+ul
+{
+  padding: 0;
+  list-style: none;
+}
+
+a
+{
+  text-decoration: none;
+  color:white;
+}
+
+li
+{
+  list-style: none;
+}
+
+.row
+{
+  display: flex;
+}
+
+.col
+{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.menulogo
+{
+    display: inline-block;
+    text-align: center;
+    background: -webkit-gradient(linear,left bottom,left top,from(hsla(0,0%,5%,0)),to(#0c0c0c));
+    background: linear-gradient(0deg,hsla(0,0%,5%,0),#0c0c0c);
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+}
+
+.logo
+{
+  float: left;
+  width: 5%;
+  height: 5%;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.nav {
+  padding-top: 1.5%;
+  display: inline-flex;
+  margin-left: -105px;
+}
+
+.nav li {
+  padding-bottom: 3px;
+  width:150px;
+  font-size: 120%;
+}
+
+.nav a {
+	margin: 0 30px;
+  color:white;
+}
+
+.nav li:hover
+{
+  border-bottom: 1px solid white;
+
+}
+
+.actual_page
+{
+	border-bottom: 1px solid #ff1942;
+}
+
+.menu_buttons:hover
+{
+  border-bottom: 1px solid white;
+}
+
+.background_header
+{
+  background-attachment: fixed;
+  background-image: url("../img/background-new-anime.jpg") ;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  background-position: 100% ;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  text-shadow: 3px 3px 3px black;
+  background-repeat: no-repeat;
+}
+
+.text-header
+{
+  margin-top: 15%;
+  font-size: 577%;
+  width: 100%;
+  line-height: 50%;
+  text-align: center;
+  color : #C80037;
+  text-shadow: 1px 3px 7px black;
+  font-family: 'yorukaregular';
+
+}
+
+.text-header-droite
+{
+  margin-top: 25%
+  font-size: 80%;
+  width: 100%;
+  line-height: 50%;
+  text-align: center;
+  color : white;
+  text-shadow: 1px 3px 7px black;
+}
+
+.text-header-gauche
+{
+  margin-top: 25%
+  font-size: 80%;
+  width: 100%;
+  line-height: 50%;
+  text-align: center;
+  color : #C80037;
+  text-shadow: 1px 3px 7px black;
+  font-family: 'yorukaregular';
+
+
+}
+
+.text-header hr
+{
+  width: 8%;
+  float:left;
+}
+
+.header-slogan
+{
+  padding-left: 10%;
+  font-size: 70%;
+}
+
+
+.background-reservation
+{
+  background-attachment: fixed;
+  background-image: url("../img/background-anime-resto.jpg") ;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  background-position: 100% ;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  text-shadow: 3px 3px 2.5px black;
+  background-repeat: no-repeat;
+}
+
+.text-header-reserv
+{
+  margin-top: 8%;
+  margin-left: 11%;
+  font-size: 255%;
+  width: 500px;
+  height: 500px;
+  line-height: 50%;
+  float:left;
+}
+
+.header-slogan
+{
+  padding-left: 15%;
+  padding-top: 1%;
+  font-size: 54%;
+  line-height:160%;
+  width: 100%;
+}
+
+.vertical
+{
+  border-left: 1px solid white;
+  height: 52%;
+  left: 50%;
+  margin-left: 15%;
+}
+
+.text-header-droite-reserv
+{
+
+ color : #C80037;
+}
+
+.text-header-haut-reserv
+{
+ padding-left: 40%;
+
+}
+
+.button
+{
+  margin-left: 15%;
+  margin-top: 6%;
+  padding: 20px;
+  border: 0;
+  background-color: #ff1942;
+  display: flex;
+  color: white;
+  -webkit-box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.75);
+  box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.75);
+
+}
+
+
+.button:hover {
+    background-color: white;
+    color: #C80037;
+    cursor: pointer;
+}
+
+.menus
+{
+
+  background-color:#0c0c0c;
+
+}
+
+
+
+/* Partie pour le menu */
+
+.menus p
+{
+  text-align:center;
+  font-size:40px;
+  color:white;
+  width:70%;
+  left: 50%;
+
+
+}
+
+
+.menus div h1 {
+  font-size:80px;
+  text-align:center;
+  margin-right:800px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+
+}
+.menus div div
+{
+
+  position:relative;
+  text-align:center;
+  padding: 1%;
+
+
+}
+
+.menus div div .food
+{
+  display:inline-block;
+  margin:10px;
+  width:20%;
+  position:relative;
+}
+
+
+
+
+.menus div div div img
+{
+  width:100%;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+.menus div div div .texte
+{
+  width:100%;
+  position: absolute;
+  top: 90%;
+  color:white;
+  text-shadow: black 1px 0 10px;
+  font-size: 13px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+
+}
+
+.menus div div div .texte h2
+{
+  width: 85%;
+  color:#ff1942;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+
+}
+
+
+.description
+{
+    margin-right: 42px;
+    margin-top: -20px;
+}
+
+
+.trait
+{
+
+  padding:2px;
+  background-color:#ff1942;
+  border:0;
+
+}
+
+
+/* Copyright en bas de page */
+
+
+.copyright
+{
+  text-align: center;
+  font-size:70%;
+  padding-bottom: 10px;
+}
+
+/* Fonts */
+
+@font-face {
+    font-family: 'yorukaregular';
+    src: url('yoruka-webfont.woff2') format('woff2'),
+         url('yoruka-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

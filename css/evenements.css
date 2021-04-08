@@ -1,0 +1,286 @@
+body
+{
+  background-color: #0c0c0c;
+  margin: 0;
+  color:white;
+}
+
+ul
+{
+  padding: 0;
+  list-style: none;
+}
+
+a
+{
+  text-decoration: none;
+  color:white;
+}
+
+li
+{
+  list-style: none;
+}
+
+
+/* Zone d'entête du site */
+
+.background_header
+{
+  background-attachment: fixed;
+  background-image: url("../img/bc-event.png") ;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  background-position: 100% ;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  text-shadow: 3px 3px 3px black;
+  background-repeat: no-repeat;
+}
+
+/* Menu */
+
+.menulogo {
+    display: inline-block;
+    text-align: center;
+    background: -webkit-gradient(linear,left bottom,left top,from(hsla(0,0%,5%,0)),to(#0c0c0c));
+    background: linear-gradient(0deg,hsla(0,0%,5%,0),#0c0c0c);
+    z-index: 100;
+    position: fixed;
+}
+
+.logo
+{
+  float: left;
+  width: 5%;
+  height: 5%;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.nav {
+  padding-top: 1.5%;
+  display: inline-flex;
+  margin-left: -105px;
+}
+
+.nav li {
+  padding-bottom: 3px;
+  width:150px;
+  font-size: 120%;
+}
+
+.nav a {
+	margin: 0 30px;
+  color:white;
+}
+
+.nav li:hover
+{
+  border-bottom: 1px solid white;
+
+}
+
+.actual_page
+{
+	border-bottom: 1px solid #ff1942;
+}
+
+/* Partis texte du header */
+
+.text-header
+{
+  margin-top: 15%;
+  margin-left: 8%;
+  font-size: 250%;
+  width: 700px;
+  height: 500px;
+  line-height: 50%;
+  float:left;
+}
+
+.event
+{
+
+  font-size:85px;
+  font-family: 'yorukaregular';
+
+}
+
+.text-header-droite
+{
+
+ padding-left: 11%;
+ color : #C80037;
+}
+
+.text-header hr
+{
+  width: 15%;
+  margin-left: 0%;
+}
+
+.header-slogan
+{
+  padding-left: 15%;
+  padding-top: 1%;
+  font-size: 60%;
+  line-height:160%;
+
+}
+
+/*.vertical
+{
+  border-left: 1px solid white;
+  height: 52%;
+  left: 50%;
+  margin-left: 15%;
+}
+*/
+
+.button
+{
+  margin-left: 15%;
+  margin-top: 6%;
+  padding: 15px;
+  border: 0;
+  background-color: #ff1942;
+  display: flex;
+  color: white;
+}
+
+.button:hover
+{
+  background-color: white;
+  color: #C80037;
+  cursor:pointer;
+}
+
+
+
+.evenements
+{
+	font-size: 63%;
+	padding-left:20%;
+	padding-top: 75%;
+	line-height:130%;
+}
+
+
+.karaoke
+{
+  margin-left:112%;
+  width: 100%;
+  height: 87%;
+  margin-top: 0%;
+}
+
+.karaoke_tokyo
+{ padding-top: 10.25%;
+  margin-left:27%;
+  width: 110%;
+  height: 93%;
+
+}
+
+.soiree_cosplay
+{
+  font-size:63%;
+  padding-left:13%;
+  padding-top: 19%;
+  line-height:130%;
+}
+
+.soiree_cosplay_suite
+{
+  font-size:63%;
+  padding-left:13%;
+  line-height:130%;
+}
+
+.cosplay
+{ margin-left:74%;
+  width: 37%;
+  height: 40%;
+
+}
+
+
+.cosplay_trad
+{ padding-top: 10.25%;
+  margin-left:120%;
+  width: 50%;
+  height: 50%;
+
+}
+
+.soiree_exposition
+{font-size: 63%;
+padding-left:20%;
+padding-top: 20%;
+line-height:130%;
+}
+
+.exposition
+{ margin-left:36%;
+  width: 80%;
+  height: 40%;
+}
+
+.exposition_trad
+{ padding-top: 10.25%;
+  margin-left:106%;
+  width: 80%;
+  height: 40%;
+}
+
+.soiree_exposition_suite
+{font-size: 63%;
+padding-left:20%;
+line-height:130%;
+}
+
+.expo_pop
+{font-size: 63%;
+padding-left:20%;
+padding-top: 20%;
+line-height:130%;
+}
+
+.exposition_pop
+{ margin-left:112%;
+  width: 50%;
+  height: 40%;
+}
+
+.lucky_cat
+{ padding-top: 10.25%;
+  margin-left: 40%;
+  width: 60%;
+  height: 50%;
+
+
+}
+
+/* Copyright en bas de page */
+
+
+.copyright
+{
+  text-align: center;
+  font-size: 26%;
+  padding-bottom: 10px;
+  margin-right: -128%;
+}
+
+
+/* Fonts */
+
+@font-face {
+    font-family: 'yorukaregular';
+    src: url('yoruka-webfont.woff2') format('woff2'),
+         url('yoruka-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

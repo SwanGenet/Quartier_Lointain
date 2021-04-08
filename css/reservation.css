@@ -1,0 +1,252 @@
+body
+{
+  background-color: #0c0c0c;
+  margin: 0;
+  color:white;
+}
+
+ul
+{
+  padding: 0;
+  list-style: none;
+}
+
+/* Zone d'entête du site */
+
+.background_header
+{
+  background-attachment: fixed;
+  background-image: url("../img/bc-reservation.png") ;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  background-position: 100% ;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  text-shadow: 3px 3px 3px black;
+  background-repeat: no-repeat;
+}
+
+/* Menu */
+
+.menulogo {
+    display: inline-block;
+    text-align: center;
+    background: -webkit-gradient(linear,left bottom,left top,from(hsla(0,0%,5%,0)),to(#0c0c0c));
+    background: linear-gradient(0deg,hsla(0,0%,5%,0),#0c0c0c);
+    z-index: 100;
+    position: fixed;
+}
+
+.logo
+{
+  float: left;
+  width: 5%;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.nav {
+  padding-top: 1.5%;
+  display: inline-flex;
+  margin-left: -105px;
+}
+
+.nav li {
+	list-style: none;
+  padding-bottom: 3px;
+  width:150px;
+  font-size: 120%;
+}
+
+.nav a {
+	margin: 0 30px;
+  color:white;
+  text-decoration: none;
+}
+
+.nav li:hover
+{
+  border-bottom: 1px solid white;
+
+}
+
+.actual_page
+{
+	border-bottom: 1px solid #ff1942;
+}
+
+/* Partis texte du header */
+
+.text-header
+{
+  margin-top: 20%;
+margin-left: 7%;
+font-size: 400%;
+width: 100%;
+line-height: 12%;
+padding-left:11%;
+font-family: 'yorukaregular';
+}
+
+.text-header-droite
+{
+  padding-left: 25%;
+  color:#C80037;
+}
+
+.text-header hr 
+{
+    margin-left: 5%;
+    margin-top: -6%;
+    width: 15%;
+    border-bottom: 1px solid white;
+}
+
+
+/* Partie formulaire  */
+
+.input-fields{
+  display: flex;
+  flex-direction: column;
+
+  width: 37%;
+  margin-left: 24%;
+
+}
+
+
+
+.input-fields ,
+.input-fields  .msg textarea{
+
+}
+
+.msg textarea{
+  -webkit-text-fill-color: #ffffff;
+    background: #333333;
+    border: 0;
+    border-bottom: 2px solid red;
+    padding: 1%;
+    font-size: 150%;
+}
+
+
+
+
+.btn {
+  background: #ca1d1d;
+text-align: center;
+padding: 2%;
+border-radius: 5px;
+color: #fff;
+cursor: pointer;
+text-transform: uppercase;
+width: 29%;
+}
+
+@media screen and (max-width: 600px){
+  .contact-form{
+    flex-direction: column;
+  }
+  .msg textarea{
+    height: 80px;
+  }
+  .input-fields,
+  .msg{
+    width: 100%;
+  }
+}
+
+
+.nombre{
+  background-color: #333333;
+    padding: 3%;
+    color: #FFFFFF;
+    border: 0;
+    border-bottom: 2px solid red;
+
+    width: 70%;
+    font-size: 150%;
+}
+
+.date{
+  background-color: #333333;
+      padding: 3%;
+      color: #FFFFFF;
+      width: 70%;
+      border: 0;
+      border-bottom: 2px solid red;
+      font-size: 150%;
+}
+
+.heure{
+  background-color: #333333;
+      padding: 3%;
+      color: #ffffff;
+      border: 0;
+      border-bottom: 2px solid red;
+
+      width: 70%;
+      font-size: 150%;
+}
+
+
+
+
+
+.textform {
+  margin-top: -48%;
+  margin-left: 65%;
+
+
+}
+
+p.textform2 {
+font-size: 143%;
+
+
+
+}
+p.textform3 {
+
+  font-size: 180%;
+
+margin-top: 25%;
+
+
+}
+.textform4 {
+
+font-size: 110%;
+size: auto;
+width: 70%;
+}
+
+
+
+.copyright
+{
+text-align: center;
+font-size:70%;
+padding-top: 22%;
+}
+
+
+/*.header-slogan
+{
+  padding-left: 10%;
+  padding-top: 1%;
+  font-size: 70%;
+  line-height:120%;
+  width: 20%;
+}*/
+
+
+@font-face {
+    font-family: 'yorukaregular';
+    src: url('yoruka-webfont.woff2') format('woff2'),
+         url('yoruka-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
